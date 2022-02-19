@@ -350,7 +350,6 @@ GameObject:
   - component: {fileID: 1397276484}
   - component: {fileID: 1397276483}
   - component: {fileID: 1397276487}
-  - component: {fileID: 1397276488}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -477,24 +476,10 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397276482}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d1a0449e79064144a6279759b57e7c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  comboKeyIntervalInMillis: 300
-  comboKeys: 11010000120100007700000077000000
---- !u!114 &1397276488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397276482}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b245dc38da5ad5e428fe20234a88a851, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ec5563ce8218c248986a27ff4c23bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   totalComboDurationInMillis: 1200
-  comboKeys: 11010000120100007700000077000000
+  castButton: 32
